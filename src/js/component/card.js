@@ -34,7 +34,7 @@ const Card = ({
       <img
         src={imageToDisplay}
         className="card-img-top"
-        alt="A Picture From Far Far Away"
+        alt="A Picture "
         onError={(e) => {
           e.target.src = placeholderImg;
         }} // Manejo de error de imagen
