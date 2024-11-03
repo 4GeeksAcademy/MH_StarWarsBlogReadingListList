@@ -1,0 +1,197 @@
+body {
+  background: #000
+    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+    center;
+  @include media-query(palm) {
+    background: none;
+  }
+}
+h1 {
+  color: white;
+}
+.TextoStarWars {
+  color: white;
+}
+.dropdown-item .fa-trash {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.dropdown-item .btn-link {
+  text-decoration: none;
+}
+
+.navbar {
+  background: #000
+    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+    center;
+  @include media-query(palm) {
+    background: none;
+  }
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #f8f9fa; /* Fondo más suave */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada al pasar el mouse */
+}
+
+.card-img-top {
+  border-bottom: 2px solid #ffc107; /* Línea en la parte inferior de la imagen */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343a40; /* Color de texto más oscuro */
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d; /* Color de texto más suave */
+}
+
+.card-buttons {
+  margin-top: auto; /* Asegura que los botones estén en la parte inferior */
+}
+
+.btn-more {
+  background-color: #343a40; /* Color de fondo del botón */
+  border: none;
+}
+
+.btn-more:hover {
+  background-color: #495057; /* Color de fondo del botón al pasar el mouse */
+}
+
+.btn-add-favorite {
+  background-color: #ffc107; /* Color de fondo del botón de favoritos */
+  border: none;
+}
+
+.btn-add-favorite:hover {
+  background-color: #e0a800; /* Color de fondo del botón de favoritos al pasar el mouse */
+}
+
+.text-warning {
+  color: #ffc107; /* Color del icono de favoritos */
+}
+
+.jumbotron {
+  background-color: #1c1c1c; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 2rem; /* Espaciado interno */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.lead {
+  font-size: 1.2rem; /* Tamaño de fuente más grande */
+}
+
+.img-character {
+  border-radius: 10px; /* Bordes redondeados para la imagen */
+  border: 2px solid #ffc107; /* Borde dorado */
+}
+
+.details-text {
+  font-weight: bold; /* Texto en negrita */
+  color: #ffc107; /* Color dorado */
+}
+
+.character-description {
+  font-style: italic; /* Texto en cursiva */
+  color: #d3d3d3; /* Color gris claro */
+}
+
+.table {
+  background-color: #2c2c2c; /* Fondo de la tabla */
+  border-radius: 10px; /* Bordes redondeados para la tabla */
+  color: #ffffff; /* Texto blanco */
+}
+
+.table th,
+.table td {
+  border: none; /* Sin bordes */
+  padding: 1rem; /* Espaciado interno */
+}
+
+.table th {
+  background-color: #343a40; /* Fondo de encabezado */
+}
+
+.table th.TextoStarWars {
+  color: #ffc107; /* Color dorado para los encabezados */
+}
+
+.table td.TextoStarWars {
+  color: #d3d3d3; /* Color gris claro para las celdas */
+}
+
+/* Hover Effects */
+.table tr:hover {
+  background-color: #444; /* Fondo gris oscuro al pasar el mouse */
+}
+
+@media (max-width: 768px) {
+  .lead {
+    flex-direction: column; /* Apilar elementos en pantallas pequeñas */
+    align-items: center; /* Centrar elementos */
+  }
+
+  .img-character {
+    width: 100%; /* Imagen a 100% en pantallas pequeñas */
+    max-width: 300px; /* Ancho máximo */
+  }
+}
+
+.jumbotron {
+  background-color: #1c1c1c; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 2rem; /* Espaciado interno */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.img-planet .img-character .img-vehicle {
+  width: 18rem; /* Ancho de la imagen */
+  border-radius: 10px; /* Bordes redondeados para la imagen */
+  border: 2px solid #ffc107; /* Borde dorado */
+}
+
+.details-text {
+  font-weight: bold; /* Texto en negrita */
+  color: #ffc107; /* Color dorado */
+}
+
+.table {
+  background-color: #2c2c2c; /* Fondo de la tabla */
+  border-radius: 10px; /* Bordes redondeados para la tabla */
+  color: #ffffff; /* Texto blanco */
+}
+
+.table th,
+.table td {
+  border: none; /* Sin bordes */
+  padding: 1rem; /* Espaciado interno */
+}
+
+.table th {
+  background-color: #343a40; /* Fondo de encabezado */
+}
+
+.table th.TextoStarWars {
+  color: #ffc107; /* Color dorado para los encabezados */
+}
+
+.table td.TextoStarWars {
+  color: #d3d3d3; /* Color gris claro para las celdas */
+}
